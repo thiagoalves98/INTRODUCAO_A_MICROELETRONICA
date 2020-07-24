@@ -1,0 +1,39 @@
+Relatório 1 - 1a atividade de simulação
+
+Introdução ao SpiceOpus Montar arquivos .spi para resistores e capacitores Montar arquivos .cir para simulação para cada curva medir Constante de tempo, tempo de subida e descida, tempo de propagação LH e HL Montar um .cir com fonte e diodo, levantar tensão corrente
+
+Relatório 2 - Leitura de lay out de células CMOS
+
+Para cada lay out do arquivo de exemplos West Harris fazer, na ordem pedida:1- levantar o diagrama de palitos; 2- desenhar diagrama esquimático com transistores "na horizontal"; 3- converter o diagrama de transistores da horizontal para a vertical; 4- deduzir a tabela verdade; 5- deduzir a função booleana correspondente
+
+Relatório 3 -  Desenho, simulação, dimensionamento e caracterização de um Inversor CMOS - 1
+
+Descrever o uso passo a passo do GRAAL + COUGAR no desenho da célula standard de um inversor; relatar os passos dados para se obter um inversor equilibrado estaticamente; Descrever a simulação dinâmica com a aplicação de um pulso e levantamento dos tempos de propagação, subida e descida, e constante de tempo na subida e descida; dedução dos valores aproximados de Ron P, N e da relação aproximada da relação entre as mobilidades dos segmentos P e N
+
+Relatório 4
+
+-Margem de ruído (16/08/2018 - 16/08/2018) após trabalhar equilíbrio estático entre Beta P e Beta N, apresentar conceito de margem de ruído, simular o inversor equilibrado estaticamente e medir Vil, Vih, Vol e Voh. voltar a simular estáticamente com entradas de Vil até Vih e verificar que a saída obtida vai de Voh até Vol medidos! -Regeneração da família CMos - simulação estática e dinâmica (21/08/2018 - 21/08/2018) Conectar 3 instâncias dos inversores equilibrados em série Simular o comportamento de cada um alimentando-se com 1- DC de Vil até Vih 2- Pulso com amplitude de Vil até Vih 3- Verificar formas de onda em A, Y1, Y2, Y3 medindo tempo de propagação -Avaliação Fan Out de 4 - FO4: Conectar em paralelo 4 instancias do inversor equilibrado na saída de um inversor equilibrado. Simular com pulso de 0 a 1,8V , verificar tempos de atraso de propagação em comparação com o inversor isolado -Inversor gordo; Bufferização (23/08/2018 - 23/08/2018) Dobrar as larguras dos Transistores P e N mantendo o equilíbrio do inversor Criar outro inversor FO4 substituindo o 1o inversor pelo inversor gordo Cossimular e comparar (tempos de atraso0 FO4 com FO4 gordo Criar outro circuito FO4 substituindo o inversor gordo por dois equilibrados em paralelo Cossimular com os outros dois acima e comparar Utilização do visualizador de net list em forma de diagrama esquemático (circuito com transistores): MBK_IN_LO=spi xsch –l ‘ ... ’
+
+Relatório 5
+
+Relatar o desenvolvimento do Nand 2 entradas
+
+Relatório 6
+
+Transmission Gate / Porta triState/Porta Analógica + Inversor Tristate. Relatar projeto, simulações e comparações entre Transistor de Passagem, transmission Gates e inversor tri-State
+
+Relatório 7 - Muxes 2x1 e 4x1 analógigos
+
+relatar desenho e simulação
+
+Relatório 8 - Muxes 2x1 e 4x1 inverso/não inversor - digital
+
+Instanciar o layout de 1 inversor conectado 2 inversores tri-state para chegar a um mux 2x1 inversor; Associar 1 inversor e 3 muxes 2x1 inversores para obter um mux 4x1 não inversor;
+
+Relatório 9 - Laches e Flip Flops
+
+instanciar um mux não inversor (analógico) e inversores para criar um lath tipo D Associar 2 latches tipo D e um inversor para obter um Flip Flop D
+
+Relatório 10 -  geração procedural de net list e layout posicionado
+
+geração procedural de net list e layout posicionado Somador de 1 e 4 bits
